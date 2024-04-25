@@ -1,31 +1,57 @@
 #include <stdio.h>
 #include "udt.h"
 
-void swap(int *xp, int *yp)
+
+int RemoveMin(deque *d)
 {
-    int tmp = *xp;
-    *xp = *yp;
-    *yp = tmp;
-}
+    int min_el = TopHeadDeque(d);
+    int cur_el;
+    int min_ind = 0;
+    
+    for (int i=0; i < d->size; ++i) {
+        cur_el = TopHeadDeque(d);
+        PopHeadDeque(d);
+        PushTailDeque(d, cur_el);
 
-void selectionSort(deque *d)
-{
-    int i, j, min_idx, real_i, real_min_idx, real_j;
-
-    for (i = 0; i < d->size - 1; i++) {
-        real_i = (d->head + i) % POOL_SIZE;
-        min_idx = real_i;
-
-        for (j = i + 1; j < d->size;  j++) {
-            real_j = (d->head + j) % POOL_SIZE; 
-            if (d->data[real_j] < d->data[min_idx])
-                min_idx = real_j;
+        if (cur_el < min_el) {
+            min_el = cur_el;
+            min_ind = i;
         }
-            
-        if (min_idx != real_i)
-            swap(&(d->data[min_idx]), &(d->data[real_i]));
     }
+
+    for (int i=0; i < d->size; ++i) {
+        cur_el = TopHeadDeque(d);
+        PopHeadDeque(d);
+
+        if (min_ind != i) 
+            PushTailDeque(d, cur_el);
+    }
+
+    return min_el;
 }
+
+
+deque selectionSort(deque *d)
+{
+    deque sorted_d;
+    CreateDeque(&sorted_d);
+    int min_el;
+
+    while (!isEmptyDeque(d))
+    {
+        min_el = RemoveMin(d);
+        PushTailDeque(&sorted_d, min_el);
+    }
+
+    while (!isEmptyDeque(&sorted_d)) {
+        min_el = TopHeadDeque(&sorted_d);
+        PopHeadDeque(&sorted_d);
+        PushTailDeque(d, min_el);
+    }
+
+    return sorted_d;
+}
+
 
 void printDeque(deque *d) 
 {
@@ -47,7 +73,7 @@ int main()
     int state, key;
     
     do {
-        printf("Choose the option: 1-push to head, 2-push to tail, 3-print min, 4-print max, 5-delete min, 6-delete max, 7-size, 8-check if empty, 9-print deque\n");
+        printf("Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque\n");
         scanf("%d", &state);
         if (state == 1) {
             printf("Type value: ");
@@ -61,43 +87,25 @@ int main()
             printf("%d added to tail\n", key);
         } else if (state == 3) {
             if (!isEmptyDeque(&deck)) {
-                selectionSort(&deck);
-                char head = TopHeadDeque(&deck);
-                printf("Min is %d\n", head);
+                int mini = RemoveMin(&deck);
+                printf("Min is %d\n", mini);
             } else {
                 printf("Deque is empty\n");
             }
         } else if (state == 4) {
             if (!isEmptyDeque(&deck)) {
-                selectionSort(&deck);
-                char tail = TopTailDeque(&deck);
-                printf("Max is %d\n", tail);
+                deque sorted = selectionSort(&deck);
+                printDeque(&deck);
             } else {
                 printf("Deque is empty\n");
             }
         } else if (state == 5) {
-            if (!isEmptyDeque(&deck)) {
-                selectionSort(&deck);
-                PopHeadDeque(&deck);
-                printf("Min is deleted\n");
-            } else {
-                printf("Deque is empty\n");
-            }
-        } else if (state == 6) {
-            if (!isEmptyDeque(&deck)) {
-                selectionSort(&deck);
-                PopTailDeque(&deck);
-                printf("Max is deleted\n");
-            } else {
-                printf("Deque is empty\n");
-            }
-        } else if (state == 7) {
             int size = getSizeDeque(&deck);
             printf("Size is %d\n", size);
-        } else if (state == 8) {
+        } else if (state == 6) {
             int empty = isEmptyDeque(&deck);
             printf("Deque is %s\n", empty ? "empty" : "not empty");
-        } else if (state == 9) {
+        } else if (state == 7) {
             printf("Deque:\n");
             printDeque(&deck);
         }

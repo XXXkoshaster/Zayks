@@ -66,7 +66,7 @@ void PopTailDeque(deque *d)
     d->size--;
 }
 
-char TopHeadDeque(deque *d)
+int TopHeadDeque(deque *d)
 {
     if (d->size) 
         return d->data[d->head];
@@ -74,7 +74,7 @@ char TopHeadDeque(deque *d)
         return '\0';
 }
 
-char TopTailDeque(deque *d)
+int TopTailDeque(deque *d)
 {
     if (d->size) 
         return d->data[d->tail];
