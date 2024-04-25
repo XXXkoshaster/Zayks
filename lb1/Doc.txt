@@ -1,0 +1,111 @@
+Описание:
+
+Скрипт сначала проверяет количество переданных аргументов с помощью системной переменной $# и в зависимости от их количества устанавливает значения переменных KEY, KEY_VALUE, FILE_NAME, PREFIX. 
+Если аргументов нет, то запросит их ввод у пользователя. Если аргументов слишком много, скрипт выведет сообщение об ошибке.
+Скрипт проверяет, существует ли указанный файл ($FILE_NAME). Если файл не найден, скрипт завершается с сообщением об ошибке.
+Исходя из значения KEY (-l, -b, -n), скрипт выполняет разные операции для подсчёта TOTAL_ELEMENTS (общее количество элементов для разбиения, например, количество строк или символов в файле) и определяет количество необходимых файлов (FILES_NEEDED) и количество элементов (END_LINE) в каждом из разбиений.
+-l: Разбиение файла на меньшие файлы по количеству строк.
+-b: Разбиение файла на меньшие файлы по количеству байт.
+-n: Разбиение файла на указанное количество файлов, делит файл на равные части по размеру.
+Для каждого файла, который нужно создать, скрипт генерирует имя выходного файла (OUTPUT_FILE) и, в зависимости от режима работы (KEY), извлекает соответствующую часть из исходного файла, сохраняя её в новом файле. Скрипт использует команды head и tail для извлечения нужных сегментов файла.
+Для каждого созданного файла скрипт выводит сообщение о том, что файл был создан.
+
+Тесты:
+
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ ./h_w.sh
+Print arguments: key, key_value, file_name, prefix:
+-l 100 largefile.txt file
+File created: file1.txt
+File created: file2.txt
+File created: file3.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ wc -l largefile.txt
+220 largefile.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ wc -l file1.txt
+100 file1.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ wc -l file2.txt
+100 file2.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ wc -l file3.txt
+20 file3.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ ./h_w.sh largefile.txt
+File created: x1.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ wc -l x1.txt
+220 x1.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ ./h_w.sh largefile.txt y
+File created: y1.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ wc -l y1.txt
+220 y1.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ ./h_w.sh -l 123 largefile.txt
+File created: x1.txt
+File created: x2.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ wc -l x1.txt
+123 x1.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ wc -l x2.txt
+97 x2.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ ./h_w.sh -l 111 largefile.txt q
+File created: q1.txt
+File created: q2.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ wc -l q1.txt
+111 q1.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ wc -l q2.txt
+109 q2.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ wc largefile.txt
+   220  12519 140963 largefile.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ ./h_w.sh -b 30000 largefile.txt
+File created: x1.txt
+File created: x2.txt
+File created: x3.txt
+File created: x4.txt
+File created: x5.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ ls -l
+total 584
+-rwxrwxr-x 1 xxxkoshaster xxxkoshaster   2605 фев 29 16:26 h_w.sh
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster 140963 фев 28 11:38 largefile.txt
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster  30000 фев 29 17:03 x1.txt
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster  30000 фев 29 17:03 x2.txt
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster  30000 фев 29 17:03 x3.txt
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster  30000 фев 29 17:03 x4.txt
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster  20963 фев 29 17:03 x5.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ ./h_w.sh -b 50000 largefile.txt e
+File created: e1.txt
+File created: e2.txt
+File created: e3.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ ls -l
+total 732
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster  50000 фев 29 17:05 e1.txt
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster  50000 фев 29 17:05 e2.txt
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster  40963 фев 29 17:05 e3.txt
+-rwxrwxr-x 1 xxxkoshaster xxxkoshaster   2605 фев 29 16:26 h_w.sh
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster 140963 фев 28 11:38 largefile.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ ./h_w.sh -n 7 largefile.txt
+File created: x1.txt
+File created: x2.txt
+File created: x3.txt
+File created: x4.txt
+File created: x5.txt
+File created: x6.txt
+File created: x7.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ ls -l
+total 428
+-rwxrwxr-x 1 xxxkoshaster xxxkoshaster   2605 фев 29 16:26 h_w.sh
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster 140963 фев 28 11:38 largefile.txt
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster  20137 фев 29 17:15 x1.txt
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster  20137 фев 29 17:15 x2.txt
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster  20137 фев 29 17:15 x3.txt
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster  20137 фев 29 17:15 x4.txt
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster  20137 фев 29 17:15 x5.txt
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster  20137 фев 29 17:15 x6.txt
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster  20141 фев 29 17:15 x7.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ ./h_w.sh -n 4 largefile.txt nt
+File created: nt1.txt
+File created: nt2.txt
+File created: nt3.txt
+File created: nt4.txt
+xxxkoshaster@YES-MAN:~/Documents/Prog/Zayks/Lb1$ ls -l
+total 572
+-rwxrwxr-x 1 xxxkoshaster xxxkoshaster   2605 фев 29 16:26 h_w.sh
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster 140963 фев 28 11:38 largefile.txt
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster  35240 фев 29 17:15 nt1.txt
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster  35240 фев 29 17:15 nt2.txt
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster  35240 фев 29 17:15 nt3.txt
+-rw-rw-r-- 1 xxxkoshaster xxxkoshaster  35243 фев 29 17:15 nt4.txt
+
