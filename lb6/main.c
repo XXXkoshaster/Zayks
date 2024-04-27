@@ -36,6 +36,7 @@ void selectionSort(deque *d)
     deque sorted_d;
     CreateDeque(&sorted_d);
     int min_el;
+    RemoveMin(d);
 
     while (!isEmptyDeque(d))
     {
@@ -48,6 +49,7 @@ void selectionSort(deque *d)
         PopHeadDeque(&sorted_d);
         PushTailDeque(d, min_el);
     }
+    
 }
 
 
@@ -85,7 +87,6 @@ int main()
             printf("%d added to tail\n", key);
         } else if (state == 3) {
             if (!isEmptyDeque(&deck)) {
-                RemoveMin(&deck);
                 selectionSort(&deck);
                 printDeque(&deck);
             } else {

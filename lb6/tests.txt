@@ -1,222 +1,235 @@
 xxxkoshaster@YES-MAN:~/Documents/Zayks/lb6$ make
 gcc main.c udt.c 
 xxxkoshaster@YES-MAN:~/Documents/Zayks/lb6$ ./a.out
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+4
+Size is 0
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+5
+Deque is empty
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+6
+Deque:
+
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+3
+Deque is empty
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+1
+Type value: 5
+5 added to head
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+4
+Size is 1
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+5
+Deque is not empty
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+6
+Deque:
+5 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+3
+
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+5
+Deque is empty
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
 1
 Type value: 10
 10 added to head
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-5
-Size is 1
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-6
-Deque is not empty
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-7
-Deque:
-10 
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-3
-Min is 10
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-5
-Size is 0
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-6
-Deque is empty
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-7
-Deque:
-
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-4
-Deque is empty
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-3
-Deque is empty
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-2
-Type value: 10
-10 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
 2
 Type value: 20
 20 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
 2
 Type value: 30
 30 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-7
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+6
 Deque:
 10 20 30 
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-5
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+4
 Size is 3
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
 3
-Min is 10
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-4
 20 30 
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-7
-Deque:
-20 30 
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-5
-Size is 2
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
 3
-Min is 20
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-4
 30 
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-5
-Size is 1
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-1
-Type value: 10
-10 added to head
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-1
-Type value: 20
-20 added to head
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-7
-Deque:
-20 10 30 
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-3
-Min is 10
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-4
-20 30 
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-1
-Type value: 10
-10 added to head
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-2
-Type value: 20
-20 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
 2
 Type value: 10
 10 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-7
-Deque:
-10 20 30 20 10 
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-3
-Min is 10
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-4
-10 20 20 30 
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-3
-Min is 10
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-4
-20 20 30 
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
 1
-Type value: -10
--10 added to head
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-7
-Deque:
--10 20 20 30 
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-3
-Min is -10
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-4
-20 20 30 
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-3
-Min is 20
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-3
-Min is 20
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-3
-Min is 30
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
+Type value: 9 
+9 added to head
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+1
+Type value: 21
+21 added to head
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
 6
-Deque is empty
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-1
-Type value: -10
--10 added to head
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-2
-Type value: -5
--5 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-7
 Deque:
--10 -5 
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
+21 9 30 10 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+4
+Size is 4
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
 3
-Min is -10
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
+10 21 30 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
 3
-Min is -5
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-6
-Deque is empty
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-1
-Type value: -10
--10 added to head
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
+21 30 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+3
+30 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
 2
 Type value: 20
 20 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+2
+Type value: 10
+10 added to tail
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+6
+Deque:
+30 20 10 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+3
+20 30 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+3
+30 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+1
+Type value: 10
+10 added to head
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+2
+Type value: 30
+30 added to tail
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+1
+Type value: 10
+10 added to head
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+6
+Deque:
+10 10 30 30 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+3
+10 30 30 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+3
+30 30 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+3
+30 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+1
+Type value: 10
+10 added to head
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+2
+Type value: 30
+30 added to tail
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+2
+Type value: 10
+10 added to tail
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+6
+Deque:
+10 30 30 10 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+3
+10 30 30 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+3
+30 30 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+3
+30 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+3
+
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+5
+Deque is empty
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+1
+Type value: -1
+-1 added to head
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+2
+Type value: 20
+20 added to tail
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
 2
 Type value: -30
 -30 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
 2
 Type value: 40
 40 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-7
-Deque:
--10 20 -30 40 
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-3
-Min is -30
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-4
--10 20 40 
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-3
-Min is -10
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-4
-20 40 
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-3
-Min is 20
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-4
-40 
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-3
-Min is 40
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-4
-Deque is empty
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
-5
-Size is 0
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
 6
+Deque:
+-1 20 -30 40 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+4
+Size is 4
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+5
+Deque is not empty
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+3
+-1 20 40 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+3
+20 40 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+3
+40 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+2
+Type value: 0
+0 added to tail
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+6
+Deque:
+40 0 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+3
+40 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+3
+
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+2
+Type value: -3
+-3 added to tail
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+1
+Type value: 0
+0 added to head
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+6
+Deque:
+0 -3 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+3
+0 
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+3
+
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+5
 Deque is empty
-Choose the option: 1-push to head, 2-push to tail, 3-delete and print min, 4- sorte deque, 5-size, 6-check if empty, 7-print deque
+Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
 0
