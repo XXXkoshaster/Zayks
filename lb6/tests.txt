@@ -1,235 +1,212 @@
 xxxkoshaster@YES-MAN:~/Documents/Zayks/lb6$ make
 gcc main.c udt.c 
 xxxkoshaster@YES-MAN:~/Documents/Zayks/lb6$ ./a.out
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-4
-Size is 0
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-5
-Deque is empty
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-6
-Deque:
-
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
-Deque is empty
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
 1
-Type value: 5
-5 added to head
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-4
-Size is 1
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-5
-Deque is not empty
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-6
-Deque:
-5 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
-
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-5
-Deque is empty
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-1
-Type value: 10
+Type value: 10 
 10 added to head
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
 2
 Type value: 20
 20 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-2
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+2 
 Type value: 30
 30 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-6
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+8
 Deque:
 10 20 30 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-4
-Size is 3
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+4   
+Delete head
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+8
+Deque:
 20 30 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
-30 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+5
+Delete tail
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+8
+Deque:
+20 
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+1   
+Type value: 89
+89 added to head
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
 2
-Type value: 10
-10 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-1
-Type value: 9 
-9 added to head
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+Type value: 32
+32 added to tail
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+8
+Deque:
+89 20 32 
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+3
+20 32 89 
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+4
+Delete head
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+8
+Deque:
+32 89 
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+6
+Size is 2
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+7
+Deque is not empty
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+4
+Delete head
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+4
+Delete head
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+7
+Deque is empty
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+6
+Size is 0
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+8
+Deque:
+
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
 1
 Type value: 21
 21 added to head
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-6
-Deque:
-21 9 30 10 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-4
-Size is 4
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
-10 21 30 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
-21 30 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
-30 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-2
-Type value: 20
-20 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-2
-Type value: 10
-10 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-6
-Deque:
-30 20 10 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
-20 30 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
-30 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
 1
-Type value: 10
-10 added to head
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-2
 Type value: 30
-30 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-1
-Type value: 10
-10 added to head
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-6
+30 added to head
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+2
+Type value: 9
+9 added to tail
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+2
+Type value: 9
+9 added to tail
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+8
 Deque:
-10 10 30 30 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+30 21 9 9 
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
 3
-10 30 30 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
-30 30 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
-30 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-1
-Type value: 10
-10 added to head
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-2
-Type value: 30
-30 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-2
-Type value: 10
-10 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-6
-Deque:
-10 30 30 10 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
-10 30 30 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
-30 30 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
-30 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
-
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-5
-Deque is empty
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-1
-Type value: -1
--1 added to head
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-2
-Type value: 20
-20 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-2
-Type value: -30
--30 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-2
-Type value: 40
-40 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-6
-Deque:
--1 20 -30 40 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+9 9 21 30 
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
 4
-Size is 4
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-5
-Deque is not empty
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
--1 20 40 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
-20 40 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
-40 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+Delete head
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+8
+Deque:
+9 21 30 
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+2
+Type value: -12
+-12 added to tail
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
 2
 Type value: 0
 0 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-6
-Deque:
-40 0 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
-40 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
-
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
 2
-Type value: -3
--3 added to tail
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-1
-Type value: 0
-0 added to head
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-6
+Type value: -1 
+-1 added to tail
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+8
 Deque:
-0 -3 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+9 21 30 -12 0 -1 
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
 3
-0 
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
-3
-
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+-12 -1 0 9 21 30 
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
 5
+Delete tail
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+8
+Deque:
+-12 -1 0 9 21 
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+6
+Size is 5
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+4
+Delete head
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+8
+Deque:
+-1 0 9 21 
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+5
+Delete tail
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+7
+Deque is not empty
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+6
+Size is 3
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+5
+Delete tail
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+6
+Size is 2
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+5
+Delete tail
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+6
+Size is 1
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+5
+Delete tail
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+7
 Deque is empty
-Choose the option: 1-push to head, 2-push to tail, 3- sorte deque, 4-size, 5-check if empty, 6-print deque
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+8
+Deque:
+
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+1
+Type value: 30
+30 added to head
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+2
+Type value: 20
+20 added to tail
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+2
+Type value: 20
+20 added to tail
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+2
+Type value: 30
+30 added to tail
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+8
+Deque:
+30 20 20 30 
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+3
+20 20 30 30 
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+6
+Size is 4
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+4
+Delete head
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+8
+Deque:
+20 30 30 
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
+6
+Size is 3
+Choose the option: 1-push to head, 2-push to tail, 3 - sort deque, 4 - pop head, 5 - pop tail, 6 - size, 7 - check if empty, 8 - print deque
 0
